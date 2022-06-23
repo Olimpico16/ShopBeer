@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería | Shopbeer</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/galeria.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@1&family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@1&family=Pacifico&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/50431e599b.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div class="modal" id="modal">
+        <div class="modal__content">
+            <img src="" class="modal__img" id="modal__img">
+        </div>
+        <div class="modal__boton" id="modal__boton">X</div>
+    </div>
+    <header class="main-header">
+        <div class="container container--flex">
+            <div class="logo-container column column--50">
+                <h1 class="logo">Shopbeer</h1>
+            </div>
+            <div class="main-header__contactInfo column column--50">
+                <p class="main-header__contactInfo__phone">
+                    <span><i class="fas fa-phone"></i>999-999-999</span>
+                </p>
+                <p class="main-header__contactInfo__address">
+                    <span><i class="fas fa-map"></i>Portal del Prado Barranquilla/Colombia</span>
+                </p>
+            </div>
+        </div>
+    </header>
+    <nav class="main-nav">
+        <div class="container--flex">
+            <span id="btnmenu"><i class="fas fa-bars"></i></span>
+            <ul class="menu" id="menu">
+                <li class="menu__item">
+                    <a href="index.html" class="menu__link">Inicio</a>
+                </li>
+                <li class=" menu__item "><a href="nosotros.html" class="menu__link ">Nosotros</a></li>
+
+                <li class="menu__item"><a href="galeria.html" class="menu__link menu__link--select">Galería</a></li>
+
+                <li class="menu__item "><a href="contacto.html" class="menu__link ">Contacto</a></li>
+            </ul>
+
+        </div>
+    </nav>
+    <section class="banner ">
+        <img src="/img/banner-gallery.png" alt=" " class="banner__img ">
+        <div class="banner__content ">
+            Lo mejor de nosotros a tu servicio
+        </div>
+    </section>
+    <main class="main ">
+        <div class="group gallery">
+            <h2 class="group__title">Nuestra Galería</h2>
+            <div class="container container--flex">
+                <div class="column column--50-25">
+                    <img src="/img/gallery/gallery1.jpeg" class="gallery__img gallery__img--big">
+                    <img src="/img/gallery/gallery2.jpeg" class="gallery__img gallery__img--small">
+                </div>
+                <div class="column column--50-25">
+                    <img src="/img/gallery/gallery3.jpeg" class="gallery__img gallery__img--small">
+                    <img src="/img/gallery/gallery4.jpeg" class="gallery__img gallery__img--big">
+                </div>
+                <div class="column column--50-25">
+                    <img src="/img/gallery/gallery5.jpeg" class="gallery__img gallery__img--big">
+                    <img src="/img/gallery/gallery6.jpeg" class="gallery__img gallery__img--small">
+                </div>
+                <div class="column column--50-25">
+                    <img src="/img/gallery/gallery7.jpeg" class="gallery__img gallery__img--small">
+                    <img src="/img/gallery/gallery8.jpeg" class="gallery__img gallery__img--big">
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="main-footer ">
+        <div class="container container--flex ">
+            <div class="column column--33 ">
+                <h2 class="column__title ">¿Por qué visitarnos</h2>
+                <p class="column__txt ">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo aperiam culpa ea sequi provident earum blanditiis, deserunt repellendus quis libero, cumque pariatur in, excepturi quas? Sapiente praesentium enim quam sunt?</p>
+            </div>
+            <div class="column column--33 ">
+                <h2 class="column__title ">Contactanos</h2>
+                <p class="column__txt ">3852 Annie Square</p>
+                <p class="column__txt ">Telefono: 933-881-5499</p>
+                <p class="column__txt ">Email: Shopbeer@gmail.com</p>
+            </div>
+            <div class="column column--33 ">
+                <h2 class="column__title ">Siguenos en nuestras redes</h2>
+                <p class="column__txt "><a href="# "><i class="fas fa-user "></i>Facebook</a></p>
+                <p class="column__txt "><a href="# "><i class="fas fa-user "></i>Siguenos en Twitter</a></p>
+
+            </div>
+
+        </div>
+    </footer>
+    <script src="/js/menu.js "></script>
+    <script src="/js/modal.js"></script>
+</body>
+
+</html>
